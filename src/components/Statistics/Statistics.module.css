@@ -1,0 +1,19 @@
+.section {
+  margin-top: 20px;
+  width: 350px;
+  background-color: blanchedalmond;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 3px #888888;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.title {
+  margin-left: 100px;
+}

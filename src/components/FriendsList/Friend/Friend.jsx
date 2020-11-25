@@ -1,7 +1,7 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
 export default function Friend({ avatar, name, isOnline }) {
-  let status = isOnline ? "green" : "red";
+  let status = isOnline ? 'green' : 'red';
 
   return (
     <li className="item">

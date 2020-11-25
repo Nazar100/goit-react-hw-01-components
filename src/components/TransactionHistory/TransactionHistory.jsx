@@ -1,5 +1,5 @@
-import PropTypes from "prop-types";
-import Transaction from "./Transaction";
+import PropTypes from 'prop-types';
+import Transaction from './Transaction/Transaction';
 
 export default function TransactionHistory({ items }) {
   return (
@@ -12,7 +12,7 @@ export default function TransactionHistory({ items }) {
         </tr>
       </thead>
       <tbody>
-        {items.map((trans) => {
+        {items.map(trans => {
           return (
             <Transaction
               key={trans.id}
@@ -34,6 +34,6 @@ TransactionHistory.propTypes = {
       type: PropTypes.string.isRequired,
       amount: PropTypes.string.isRequired,
       currency: PropTypes.string.isRequired,
-    })
+    }),
   ),
 };
