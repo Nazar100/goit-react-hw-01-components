@@ -17,3 +17,14 @@
 .title {
   margin-left: 100px;
 }
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  background-color: rgba(117, 219, 49, 0.7);
+  width: 50px;
+  padding: 15px;
+  outline: solid 1px black;
+}

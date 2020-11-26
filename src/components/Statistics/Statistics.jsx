@@ -10,11 +10,9 @@ export default function Statistics({ title, stats }) {
       <ul className={s.list}>
         {stats.map(stat => {
           return (
-            <StatisticsItem
-              key={stat.id}
-              label={stat.label}
-              percentage={stat.percentage}
-            />
+            <li key={stat.id} className={s.item}>
+              <StatisticsItem label={stat.label} percentage={stat.percentage} />
+            </li>
           );
         })}
       </ul>

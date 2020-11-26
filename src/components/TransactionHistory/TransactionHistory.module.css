@@ -1,0 +1,19 @@
+.top {
+  background-color: rgb(103, 103, 214);
+  outline: solid 1px black;
+}
+.column {
+  margin-left: 20px;
+  background-color: rgb(11, 72, 151);
+}
+
+.column:nth-child(2n) {
+  background-color: rgb(37, 182, 201);
+}
+th {
+  font-size: 30px;
+  padding: 10px;
+}
+.transactioHistory {
+  margin-left: 30px;
+}
